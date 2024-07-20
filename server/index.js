@@ -34,7 +34,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://chat-app-8zuy.onrender.com",
+    origin: "https://candid-twilight-4105b4.netlify.app/",
     credentials: true,
   },
 });
